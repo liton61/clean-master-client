@@ -23,15 +23,54 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li className='font-medium'><NavLink
+                                to="/"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Home
+                            </NavLink></li>
+                            <li className='font-medium'><NavLink
+                                to="/services"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Services
+                            </NavLink></li>
+                            <li className='font-medium'><NavLink
+                                to="/offered"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Offered
+                            </NavLink></li>
+                            <li className='font-medium'><NavLink
+                                to="/about"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                About Us
+                            </NavLink></li>
+                            <li className='font-medium'><NavLink
+                                to="/blogs"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Blogs
+                            </NavLink></li>
+                            <li className='font-medium'><NavLink
+                                to="/contact"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Contact
+                            </NavLink></li>
                         </ul>
                     </div>
                     <div className='w-36'>
@@ -40,17 +79,54 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Home
+                        </NavLink></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/services"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Services
+                        </NavLink></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/offered"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Offered
+                        </NavLink></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/about"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            About Us
+                        </NavLink></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/blogs"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Blogs
+                        </NavLink></li>
+                        <li className='mx-2 font-medium text-white'><NavLink
+                            to="/contact"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Contact
+                        </NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
