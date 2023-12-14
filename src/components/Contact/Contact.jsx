@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <div className="lg:w-3/4 w-full mx-auto my-20">
-            <h1 className="text-2xl font-medium text-center border-b-2 border-success w-72 mx-auto">Contact with us</h1>
+            <h1 className="text-2xl font-medium text-center border-b-2 border-success w-60 mx-auto">Contact with us</h1>
             <form className="bg-white shadow-md rounded px-5 pt-6 pb-8 mb-4">
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2">
