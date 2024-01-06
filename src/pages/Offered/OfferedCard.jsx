@@ -13,7 +13,7 @@ const OfferedCard = ({ service }) => {
                     <h2 className="card-title text-base">{title}</h2>
                     <p className="font-medium">Price : <span className="line-through decoration-red-600">{price}</span> {offer_price}</p>
                     <div className="card-actions justify-end">
-                        <Link to={`/details/${_id}`} style={{ width: '100%' }}>
+                        <Link to={`/offerDetails/${_id}`} style={{ width: '100%' }}>
                             <button className="btn btn-success text-white w-full">See Details <i className="fa-solid fa-arrow-right"></i></button>
                         </Link>
                     </div>

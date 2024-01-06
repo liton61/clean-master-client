@@ -6,7 +6,9 @@
         "price": "$12.99",
         "offer_price": "$10.99",
         "description": "Ultra-absorbent and reusable cloths for effective cleaning.",
-        "rating": 4.5
+        "rating": 4.5,
+        "day": "Friday",
+        "time": "10:00am"
     },
     {
         "_id": 2,
@@ -15,7 +17,9 @@
         "price": "$8.49",
         "offer_price": "$6.99",
         "description": "Powerful cleaner suitable for various surfaces.",
-        "rating": 4.2
+        "rating": 4.2,
+        "day": "Friday",
+        "time": "10:00am"
     },
     {
         "_id": 3,
@@ -24,7 +28,9 @@
         "price": "$89.99",
         "offer_price": "$79.99",
         "description": "High suction power for deep cleaning carpets and floors.",
-        "rating": 4.8
+        "rating": 4.8,
+        "day": "Friday",
+        "time": "10:00am"
     },
     {
         "_id": 4,
@@ -33,7 +39,9 @@
         "price": "$6.99",
         "offer_price": "$5.49",
         "description": "Durable gloves for protecting hands while cleaning.",
-        "rating": 4.0
+        "rating": 4.0,
+        "day": "Friday",
+        "time": "10:00am"
     },
     {
         "_id": 5,
@@ -42,7 +50,9 @@
         "price": "$24.99",
         "offer_price": "$19.99",
         "description": "Sleek and odor-resistant trash can for homes and offices.",
-        "rating": 4.7
+        "rating": 4.7,
+        "day": "Friday",
+        "time": "10:00am"
     },
     {
         "_id": 6,
@@ -51,6 +61,8 @@
         "price": "$15.49",
         "offer_price": "$12.99",
         "description": "Efficient cleaning tools for sweeping floors.",
-        "rating": 4.3
+        "rating": 4.3,
+        "day": "Friday",
+        "time": "10:00am"
     }
 ]
