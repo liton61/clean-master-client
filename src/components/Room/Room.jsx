@@ -5,7 +5,7 @@ const Room = () => {
         <div className='lg:w-3/4 mx-auto lg:my-20'>
             <div className='lg:flex'>
                 <div className='lg:w-1/2 lg:ml-0 mx-5 lg:mt-0 mt-5'>
-                    <img className='w-full' src={room} alt="" />
+                    <img className='w-full rounded' src={room} alt="" />
                 </div>
                 <div className='lg:w-1/2 w-full flex justify-center items-center lg:mr-0'>
                     <div className='mx-5'>
