@@ -40,28 +40,12 @@ const Navbar = () => {
                                 Services
                             </NavLink></li>
                             <li className='font-medium'><NavLink
-                                to="/offered"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : ""
-                                }
-                            >
-                                Offered
-                            </NavLink></li>
-                            <li className='font-medium'><NavLink
                                 to="/about"
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "active" : ""
                                 }
                             >
                                 About Us
-                            </NavLink></li>
-                            <li className='font-medium'><NavLink
-                                to="/blogs"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : ""
-                                }
-                            >
-                                Blogs
                             </NavLink></li>
                             <li className='font-medium'><NavLink
                                 to="/contact"
@@ -96,28 +80,12 @@ const Navbar = () => {
                             Services
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
-                            to="/offered"
-                            className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                            }
-                        >
-                            Offered
-                        </NavLink></li>
-                        <li className='mx-2 font-medium'><NavLink
                             to="/about"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
                             About Us
-                        </NavLink></li>
-                        <li className='mx-2 font-medium'><NavLink
-                            to="/blogs"
-                            className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                            }
-                        >
-                            Blogs
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
                             to="/contact"

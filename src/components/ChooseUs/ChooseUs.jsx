@@ -3,7 +3,7 @@ import choose from '../../assets/why-choose-bg.jpg';
 const ChooseUs = () => {
     return (
         <div className='lg:w-3/4 mx-auto my-20 lg:px-0 px-5'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className='flex items-center'>
                     <div>
                         <div className='mb-5'>
