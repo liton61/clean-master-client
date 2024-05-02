@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../assets/react.svg';
+import logo from '../assets/logo.png';
 import { useContext } from 'react';
 import { AuthContext } from '../authentication/Provider/AuthProvider';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     return (
         <div>
-            <div className="navbar bg-success">
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -79,7 +79,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -87,7 +87,7 @@ const Navbar = () => {
                         >
                             Home
                         </NavLink></li>
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/services"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -95,7 +95,7 @@ const Navbar = () => {
                         >
                             Services
                         </NavLink></li>
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/offered"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -103,7 +103,7 @@ const Navbar = () => {
                         >
                             Offered
                         </NavLink></li>
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/about"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -111,7 +111,7 @@ const Navbar = () => {
                         >
                             About Us
                         </NavLink></li>
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/blogs"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -119,7 +119,7 @@ const Navbar = () => {
                         >
                             Blogs
                         </NavLink></li>
-                        <li className='mx-2 font-medium text-white'><NavLink
+                        <li className='mx-2 font-medium'><NavLink
                             to="/contact"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""

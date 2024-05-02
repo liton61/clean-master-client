@@ -4,24 +4,19 @@ import { Link } from "react-router-dom";
 
 
 const ServicesCard = ({ service }) => {
-    const { img, title, price, _id } = service;
+    const { img, name, description, _id } = service;
     return (
         <div>
-            <div className="card card-compact bg-base-200 border border-green-600 rounded-none">
-                <figure><img className="w-full h-48" src={img} alt="" /></figure>
+            <div className="card card-compact shadow-lg rounded">
+                <div className="pt-10">
+                    <figure><img className="w-20 h-20 rounded-full" src={img} alt="" /></figure>
+                </div>
                 <div className="card-body">
-                    <h2 className="card-title text-base">{title}</h2>
-                    <div>
-                        <i className="fa-solid fa-star text-yellow-400"></i>
-                        <i className="fa-solid fa-star text-yellow-400"></i>
-                        <i className="fa-solid fa-star text-yellow-400"></i>
-                        <i className="fa-solid fa-star text-yellow-400"></i>
-                        <i className="fa-solid fa-star text-yellow-400"></i>
-                    </div>
-                    <p className="font-medium">Price : {price}</p>
-                    <div className="card-actions">
-                        <Link to={`/details/${_id}`} className="w-full">
-                            <button className="btn btn-success text-white w-full uppercase">See Details <i className="fa-solid fa-arrow-right"></i></button>
+                    <h2 className="text-center text-xl font-bold uppercase">{name}</h2>
+                    <p className="text-center">{description}</p>
+                    <div className="card-actions flex justify-center">
+                        <Link to={`/details/${_id}`}>
+                            <button className="bg-green-600 text-white px-3 py-2 rounded-full text-3xl font-bold"><i className="fa-solid fa-arrow-right"></i></button>
                         </Link>
                     </div>
 

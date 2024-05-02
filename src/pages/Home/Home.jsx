@@ -4,6 +4,7 @@ import Contact from "../../components/Contact/Contact";
 import Kitchen from "../../components/Kitchen/Kitchen";
 // import Room from "../../components/Room/Room";
 import RoomBanner from "../../components/Room/RoomBanner";
+import Services from "../Services/Services";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <About></About>
+            <Services></Services>
             {/* <Room></Room> */}
             <RoomBanner></RoomBanner>
             <Kitchen></Kitchen>
