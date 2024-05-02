@@ -6,6 +6,7 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Services from "../pages/Services/Services";
 import Details from "../pages/Services/Details";
+import Pricing from "../pages/Pricing/Pricing";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
                 loader: () => fetch('/services.json')
 
             },
+            {
+                path: "/pricing",
+                element: <Pricing></Pricing>
+            }
         ],
     },
     {

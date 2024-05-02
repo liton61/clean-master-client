@@ -69,15 +69,15 @@ const Navbar = () => {
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            Home
+                            HOME
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
-                            to="/services"
+                            to="/pricing"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            Services
+                            PRICING
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
                             to="/about"
@@ -85,7 +85,7 @@ const Navbar = () => {
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            About Us
+                            ABOUT US
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
                             to="/contact"
@@ -93,7 +93,7 @@ const Navbar = () => {
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            Contact
+                            CONTACT
                         </NavLink></li>
                     </ul>
                 </div>
