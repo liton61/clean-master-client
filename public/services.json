@@ -4,7 +4,7 @@
         "img": "https://i.postimg.cc/GhtdV4gJ/01.jpg",
         "title": "Microfiber Cleaning Cloth Set",
         "price": "$12.99",
-        "description": "Ultra-absorbent and reusable cloths for effective cleaning.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.5,
         "day": "Friday",
         "time": "10:00am"
@@ -14,7 +14,7 @@
         "img": "https://i.postimg.cc/vBGdzT6n/02.jpg",
         "title": "All-Purpose Cleaner Spray",
         "price": "$8.49",
-        "description": "Powerful cleaner suitable for various surfaces.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.2,
         "day": "Friday",
         "time": "10:00am"
@@ -24,37 +24,37 @@
         "img": "https://i.postimg.cc/3wTM8N1q/03.jpg",
         "title": "Vacuum Cleaner",
         "price": "$89.99",
-        "description": "High suction power for deep cleaning carpets and floors.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.8,
         "day": "Friday",
         "time": "10:00am"
     },
     {
         "_id": 4,
-        "img": "https://i.postimg.cc/5NDdrnCb/04.jpg",
+        "img": "https://i.postimg.cc/GhtdV4gJ/01.jpg",
         "title": "Reusable Rubber Gloves",
         "price": "$6.99",
-        "description": "Durable gloves for protecting hands while cleaning.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.0,
         "day": "Friday",
         "time": "10:00am"
     },
     {
         "_id": 5,
-        "img": "https://i.postimg.cc/0NYsDDrx/05.jpg",
+        "img": "https://i.postimg.cc/3wTM8N1q/03.jpg",
         "title": "Stainless Steel Trash Can",
         "price": "$24.99",
-        "description": "Sleek and odor-resistant trash can for homes and offices.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.7,
         "day": "Friday",
         "time": "10:00am"
     },
     {
         "_id": 6,
-        "img": "https://i.postimg.cc/YqPMHtJc/06.webp",
+        "img": "https://i.postimg.cc/GhtdV4gJ/01.jpg",
         "title": "Broom and Dustpan Set",
         "price": "$15.49",
-        "description": "Efficient cleaning tools for sweeping floors.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, itaque aspernatur. Ipsa iure nam harum ducimus accusamus aliquid provident ea corporis fugiat beatae dolorum.",
         "rating": 4.3,
         "day": "Friday",
         "time": "10:00am"
