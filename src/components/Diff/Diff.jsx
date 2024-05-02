@@ -20,22 +20,22 @@ const Diff = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
                     <div className='bg-base-200 rounded py-5'>
-                        <i className="fa-regular fa-heart text-5xl flex justify-center text-green-600"></i>
+                        <i className="fa-regular fa-heart text-4xl flex justify-center text-green-600"></i>
                         <h1 className='text-3xl font-bold text-center'>870+</h1>
                         <p className='text-center font-medium'>Happy Customers</p>
                     </div>
                     <div className='bg-base-200 rounded py-5'>
-                        <i className="fa-solid fa-broom text-5xl flex justify-center text-green-600"></i>
+                        <i className="fa-solid fa-broom text-4xl flex justify-center text-green-600"></i>
                         <h1 className='text-3xl font-bold text-center'>890+</h1>
                         <p className='text-center font-medium'>Projects Completed</p>
                     </div>
                     <div className='bg-base-200 rounded py-5'>
-                        <i className="fa-solid fa-gift text-5xl flex justify-center text-green-600"></i>
+                        <i className="fa-solid fa-gift text-4xl flex justify-center text-green-600"></i>
                         <h1 className='text-3xl font-bold text-center'>483+</h1>
                         <p className='text-center font-medium'>Year established</p>
                     </div>
                     <div className='bg-base-200 rounded py-5'>
-                        <i className="fa-solid fa-truck text-5xl flex justify-center text-green-600"></i>
+                        <i className="fa-solid fa-truck text-4xl flex justify-center text-green-600"></i>
                         <h1 className='text-3xl font-bold text-center'>678+</h1>
                         <p className='text-center font-medium'>Countries reached</p>
                     </div>

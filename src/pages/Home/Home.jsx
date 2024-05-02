@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
+import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Contact from "../../components/Contact/Contact";
 import Diff from "../../components/Diff/Diff";
 import Estimate from "../../components/Estimate/Estimate";
@@ -17,6 +18,7 @@ const Home = () => {
             <Services></Services>
             <Estimate></Estimate>
             <Diff></Diff>
+            <ChooseUs></ChooseUs>
             {/* <Room></Room> */}
             <RoomBanner></RoomBanner>
             <Kitchen></Kitchen>
