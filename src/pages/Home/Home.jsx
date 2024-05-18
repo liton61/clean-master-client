@@ -5,6 +5,7 @@ import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Diff from "../../components/Diff/Diff";
 import Estimate from "../../components/Estimate/Estimate";
 import Gallery from "../../components/Gallery/Photo";
+import Team from "../../components/Team/Team";
 import Services from "../Services/Services";
 
 
@@ -18,6 +19,7 @@ const Home = () => {
             <Diff></Diff>
             <Cleaning></Cleaning>
             <ChooseUs></ChooseUs>
+            <Team></Team>
             <Gallery></Gallery>
         </div>
     );
