@@ -35,6 +35,17 @@ const Team = () => {
             <div className="card-body">
               <h2 className="text-2xl font-bold text-center">{member.name}</h2>
               <p className="text-center">{member.role}</p>
+              <div className="flex justify-center gap-7">
+                <a href="">
+                  <i className="fa-brands fa-facebook text-2xl text-blue-600"></i>
+                </a>
+                <a href="">
+                  <i className="fa-brands fa-twitter text-2xl text-blue-600"></i>
+                </a>
+                <a href="">
+                  <i className="fa-brands fa-linkedin text-2xl text-blue-600"></i>
+                </a>
+              </div>
             </div>
           </div>
         ))}

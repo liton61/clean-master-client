@@ -8,6 +8,9 @@ import Services from "../pages/Services/Services";
 import Pricing from "../pages/Pricing/Pricing";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../components/Gallery/Gallery";
+import Dashboard from "../pages/Dashboard/Dashboard";
+import AdminHome from "../pages/Dashboard/AdminHome";
+import UserHome from "../pages/Dashboard/UserHome";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/services",
+        element: <Services></Services>,
       },
       {
         path: "/services",
@@ -44,6 +51,22 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register></Register>,
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard></Dashboard>,
+    children: [
+      // admin dashboard
+      {
+        path: "adminHome",
+        element: <AdminHome></AdminHome>,
+      },
+      // user dashboard
+      {
+        path: "userHome",
+        element: <UserHome></UserHome>,
+      },
+    ],
   },
 ]);
 
