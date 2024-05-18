@@ -1,68 +1,36 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-import slider1 from '../../assets/01.jpg'
-import slider2 from '../../assets/02.jpg'
-import slider3 from '../../assets/03.jpg'
-import slider4 from '../../assets/01.jpg'
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+
 
 const Gallery = () => {
+    const [gallery, setGallery] = useState([]);
+    useEffect(() => {
+        fetch('gallery.json')
+            .then(res => res.json())
+            .then(data => setGallery(data))
+    }, [])
     return (
-        <div className='lg:w-3/4 mx-auto lg:px-0 px-5 py-16'>
-            <p className='font-bold text-green-900'>Overview</p>
-            <h1 className='lg:text-5xl md:text-5xl text-3xl font-bold pb-10 text-green-900'>PHOTO GALLERY</h1>
-            <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Pagination]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    <div className="relative">
-                        <img src={slider1} alt="" className="hover:opacity-75 transition-opacity duration-500" />
-                        <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 bg-black bg-opacity-50 text-white cursor-pointer">
-                            <Link to='/allPhotos'>
-                                <i className="fa-solid fa-arrow-right text-4xl font-extrabold text-yellow-200"></i>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="relative">
-                        <img src={slider2} alt="" className="hover:opacity-75 transition-opacity duration-500" />
-                        <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 bg-black bg-opacity-50 text-white cursor-pointer">
-                            <Link to='/allPhotos'>
-                                <i className="fa-solid fa-arrow-right text-4xl font-extrabold text-yellow-200"></i>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="relative">
-                        <img src={slider3} alt="" className="hover:opacity-75 transition-opacity duration-500" />
-                        <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 bg-black bg-opacity-50 text-white cursor-pointer">
-                            <Link to='/allPhotos'>
-                                <i className="fa-solid fa-arrow-right text-4xl font-extrabold text-yellow-200"></i>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="relative">
-                        <img src={slider4} alt="" className="hover:opacity-75 transition-opacity duration-500" />
-                        <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 bg-black bg-opacity-50 text-white cursor-pointer">
-                            <Link to='/allPhotos'>
-                                <i className="fa-solid fa-arrow-right text-4xl font-extrabold text-yellow-200"></i>
-                            </Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+        <div>
+            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/s6NXC3g/hero-5.jpg)' }}>
+                {/* <div className="hero-content text-center text-neutral-content">
+                <div className="max-w-md bg-black bg-opacity-50 lg:p-10 md:p-10 p-3 rounded">
+                    <h1 className="mb-5 text-4xl font-bold">HAPPY FARMING</h1>
+                    <p className="mb-5 text-yellow-200">Farming is not just a livelihood, it's a legacy we sow today for future generations to reap !!!</p>
+                </div>
+            </div> */}
+            </div>
+            <div className="lg:w-3/4 mx-auto lg:px-0 px-5 my-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                    {
+                        gallery.map(photo => (<div key={photo._id}>
+                            <div className="relative">
+                                <img src={photo.image} alt="" />
+                                <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-500 hover:opacity-50 cursor-pointer"></div>
+                            </div>
+
+                        </div>))
+                    }
+                </div>
+            </div>
         </div>
     );
 };

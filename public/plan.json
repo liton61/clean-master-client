@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Commercial",
+    "startingPrice": 40,
+    "description": "Perfect for small apartments",
+    "price": 50,
+    "features": ["Bathroom Cleaning", "Kitchen Cleaning", "Dusting & Vacuuming"]
+  },
+  {
+    "name": "Residential",
+    "startingPrice": 50,
+    "description": "Ideal for medium-sized homes",
+    "price": 80,
+    "features": [
+      "Bathroom & Kitchen Cleaning",
+      "Dusting, Vacuuming & Mopping",
+      "Window Cleaning"
+    ]
+  },
+  {
+    "name": "Construction",
+    "startingPrice": 60,
+    "description": "Best for large homes or offices",
+    "price": 120,
+    "features": ["Full House Cleaning", "Deep Cleaning", "Carpet Cleaning"]
+  }
+]

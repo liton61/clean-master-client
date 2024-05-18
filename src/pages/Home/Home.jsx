@@ -4,7 +4,7 @@ import Cleaning from "../../components/Banner/Cleaning";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import Diff from "../../components/Diff/Diff";
 import Estimate from "../../components/Estimate/Estimate";
-import Gallery from "../../components/Gallery/Gallery";
+import Gallery from "../../components/Gallery/Photo";
 import Services from "../Services/Services";
 
 

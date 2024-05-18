@@ -80,15 +80,31 @@ const Navbar = () => {
                             PRICING
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
-                            to="/about"
+                            to="/team"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
-                            ABOUT US
+                            TEAM
+                        </NavLink></li>
+                        <li className='mx-2 font-medium'><NavLink
+                            to="/gallery"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            GALLERY
                         </NavLink></li>
                         <li className='mx-2 font-medium'><NavLink
                             to="/contact"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            JOBS
+                        </NavLink></li>
+                        <li className='mx-2 font-medium'><NavLink
+                            to="/jobs"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
